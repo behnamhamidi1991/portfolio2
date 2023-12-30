@@ -26,7 +26,7 @@ const Page = () => {
               <Image
                 src={project.imgUrl}
                 alt={project.title}
-                width={500}
+                width={700}
                 height={300}
               />
               {/* <h2>{project.title}</h2>

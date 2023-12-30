@@ -30,13 +30,13 @@ const page = () => {
           <div className={styles.socialItem}>
             <a href="https://github.com/behnamhamidi1991" target="_blank">
               <BiLogoGithub className={styles.icon} />
-              gitbut
+              github
             </a>
           </div>
           <div className={styles.socialItem}>
             <a href="www.linkedin.com/in/behnamhamidi688" target="_blank">
               <BiLogoLinkedin className={styles.icon} />
-              linkdin
+              linkedin
             </a>
           </div>
           <div className={styles.socialItem}>
