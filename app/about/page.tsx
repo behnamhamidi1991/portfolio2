@@ -13,7 +13,9 @@ const page = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
-        <h1>About Me</h1>
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-cyan-500">
+          About Me
+        </h1>
         <p className={styles.descriptionText}>
           I work as a frontend developer, and I&apos;ve been working as a
           freelancer since 2022. I did a few projects in this field and also
@@ -33,6 +35,7 @@ const page = () => {
             alt="profile"
             className={styles.img}
           />
+
           <Image
             src="/profile2.jpg"
             height={300}
@@ -40,6 +43,7 @@ const page = () => {
             alt="profile"
             className={styles.img}
           />
+
           <Image
             src="/profile3.jpg"
             height={300}
@@ -57,6 +61,13 @@ const page = () => {
         exit={{ opacity: 0 }}
       >
         <h2 className={styles.skillsTitle}>My Skills</h2>
+        <p className={styles.description}>
+          I work as a frontend developer and these are the main technologies I
+          work with. All of these technologies are great and actually the most
+          interesting ones as my opinion, but what I enjoy the most is working
+          with next.js because it has the most powerful tools and as a developer
+          you feel so much comfortable working with it.
+        </p>
         <div className={styles.skillItemsContainer}>
           <div className={styles.skillItem}>
             <Image
@@ -156,6 +167,46 @@ const page = () => {
               alt="html"
               className={styles.imgPic}
             />
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div className={styles.learnMore}>
+        <div className={styles.header}>
+          <h2>Learn More About Me</h2>
+        </div>
+        <div className={styles.body}>
+          <div className={styles.box}>
+            <h3 className={styles.boxTitle}>Why I love my job?</h3>
+            <p>
+              I&apos;ve always enjoyed working on the computer and I can say,
+              that I&apos;ve grown up with computers. I did different jobs in my
+              life before, but only 2-3 hours of working those jobs could be
+              very frustrating for me. But working on computers? Although it may
+              seem weird, I can work more than 14 hours on my computer and I
+              never get tired. It&apos;s very important, to be passionate about
+              something.
+            </p>
+          </div>
+          <div className={styles.box1}>
+            <h3 className={styles.boxTitle}>
+              Why I chose to be a frontend developer?
+            </h3>
+            <p>
+              Technically I&apos;m a fullstack developer because I learned PHP,
+              MySQL, Laravel and some other backend technologies. But to be
+              honest, with all these vast various technologies that are there
+              today, you can be a fullstack, but it&apos;s better to focus on
+              one of them more. If you decide to be a fullstack, I suggest you
+              do it, but learn one of them either front or back better and spend
+              more time learning it.
+            </p>
+          </div>
+          <div className={styles.box2}>
+            <h3 className={styles.boxTitle}>What are my hobbies?</h3>
+            My most favourite hobby is reading books, because I&apos;m not even
+            able to count the books that changed my path in life in a good way.
+            I also love watching movies, and I love listening to music.
           </div>
         </div>
       </motion.div>

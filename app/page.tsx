@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -11,6 +12,16 @@ export default function Home() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
       >
+        <Link href="/contact" className="contactBtn">
+          <Image
+            src="/contactg.gif"
+            width={150}
+            height={120}
+            alt="contact"
+            className="contactBtnImg"
+          />
+          <span className="contactText">Contact Me</span>
+        </Link>
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 text-xl tracking-widest font-semibold intro-text">
           I&apos;m Behnam Hamidi and I work as a{" "}
         </span>
