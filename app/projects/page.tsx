@@ -17,7 +17,7 @@ const Page = () => {
       >
         <div className={styles.header}>
           <h1>Projetcts</h1>
-          <p>Take a look at porjects I&apos;'ve done ...</p>
+          <p>Take a look at porjects I&apos;ve done ...</p>
         </div>
 
         <div className={styles.body}>
