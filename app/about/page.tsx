@@ -14,7 +14,7 @@ const page = () => {
         exit={{ opacity: 0 }}
       >
         <h1>About Me</h1>
-        <p>
+        <p className={styles.descriptionText}>
           I work as a frontend developer, and I&apos;ve been working as a
           freelancer since 2022. I did a few projects in this field and also
           gained experience working with different teams. I&apos;m always open
