@@ -12,80 +12,63 @@ import {
   BiLogoTwitter,
 } from "react-icons/bi";
 
-const Page = () => {
+const page = () => {
   return (
-    <div className={styles.contactPageContainer}>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
-        <div className={styles.contactHeader}>
-          <h1>Contact Me</h1>
-          <p>Here&apos;s how you can find me</p>
+    <motion.div
+      className={styles.contactPageContainer}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <div className={styles.contactPageHeader}>
+        <h1>Contact Me</h1>
+        <p>Here&apos;s how you can get in touch with me</p>
+      </div>
+
+      <div className={styles.contactPageBody}>
+        <div className={styles.socialBox}>
+          <div className={styles.socialItem}>
+            <a href="https://github.com/behnamhamidi1991" target="_blank">
+              <BiLogoGithub className={styles.icon} />
+              gitbut
+            </a>
+          </div>
+          <div className={styles.socialItem}>
+            <a href="www.linkedin.com/in/behnamhamidi688" target="_blank">
+              <BiLogoLinkedin className={styles.icon} />
+              linkdin
+            </a>
+          </div>
+          <div className={styles.socialItem}>
+            <a
+              href="https://www.facebook.com/profile.php?id=100081294337315"
+              target="_blank"
+            >
+              <BiLogoFacebookCircle className={styles.icon} />
+              facebook
+            </a>
+          </div>
+          <div className={styles.socialItem}>
+            <a href="https://twitter.com/Behnam365857187" target="_blank">
+              <BiLogoTwitter className={styles.icon} />
+              twitter
+            </a>
+          </div>
         </div>
 
-        <div className={styles.contactBody}>
-          <a
-            className={styles.item}
-            href="https://github.com/behnamhamidi1991"
-            target="_blank"
-          >
-            <BiLogoGithub className={styles.icon} />
-            Github
-          </a>
-          <a
-            className={styles.item}
-            href="www.linkedin.com/in/behnamhamidi688"
-            target="_blank"
-          >
-            <BiLogoLinkedin className={styles.icon} />
-            Linkedin
-          </a>
-          <a
-            className={styles.item}
-            href="https://www.facebook.com/profile.php?id=100081294337315"
-            target="_blank"
-          >
-            <BiLogoFacebookCircle className={styles.icon} />
-            Facebook
-          </a>
-          <a
-            className={styles.item}
-            href="https://twitter.com/Behnam365857187"
-            target="_blank"
-          >
-            <BiLogoTwitter className={styles.icon} />
-            Twitter
-          </a>
+        <div className={styles.secondContact}>
+          Feel free to contact me via email or cellphone
+          <li className={styles.secondContactItem}>
+            <BiMailSend className={styles.secondIcon} />{" "}
+            behnamhamidi688@gmail.com
+          </li>
+          <li className={styles.secondContactItem}>
+            <BiMobileVibration className={styles.secondIcon} /> +989372700732
+          </li>
         </div>
-      </motion.div>
-      <motion.div
-        className={styles.telEmail}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-      >
-        <div className={styles.telEmailHeader}>
-          <h2>Contact Me Via Email and Phone Number</h2>
-        </div>
-        <div className={styles.telEmailBody}>
-          <div className={styles.telEmailItem}>
-            <p>
-              {" "}
-              <BiMailSend /> behnamhamidi1991@gmail.com{" "}
-            </p>
-          </div>
-          <div className={styles.telEmailItem}>
-            <p>
-              {" "}
-              <BiMobileVibration /> +989372700732{" "}
-            </p>
-          </div>
-        </div>
-      </motion.div>
-    </div>
+      </div>
+    </motion.div>
   );
 };
 
-export default Page;
+export default page;

@@ -1,87 +1,82 @@
 .contactPageContainer {
   margin-top: 100px;
-  padding: 0 20%;
+  padding: 0 10%;
 }
 
-.contactHeader {
+.contactPageHeader {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 10px;
 }
 
-.contactHeader h1 {
-  font-size: 70px;
+.contactPageHeader h1 {
+  font-size: 60px;
 }
 
-.contactHeader p {
-  margin: 15px 0;
+.contactPageHeader p {
+  font-weight: 200;
+  font-size: 17px;
   letter-spacing: 1px;
-  font-weight: 300;
-  font-size: 20px;
 }
 
-.contactBody {
-  background-color: #1a253e;
-  display: flex;
-  justify-content: space-between;
-  padding: 65px 10%;
-  margin-top: 20px;
-  border-radius: 17px;
-  border-left: rgb(38, 96, 232) 2px solid;
-}
-
-.contactBody a {
+.contactPageBody {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 9px;
+}
+
+.socialBox {
+  margin: 25px 0;
+  padding: 18px;
+  background-color: #131b2e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px 80px;
+  border-radius: 15px;
+  border-left: 2px solid rgb(0, 76, 255);
+}
+
+.socialItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-transform: uppercase;
+  font-size: 11px;
   font-weight: 700;
-  font-size: 10px;
-  letter-spacing: 1px;
 }
 
-.item {
-  background-color: #131926;
-  padding: 20px 25px;
-  border-radius: 10px;
+.socialItem a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 .icon {
-  font-size: 40px;
+  font-size: 44px;
 }
 
-.telEmail {
-  background-color: #1a253e;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 65px 10%;
-  margin-top: 20px;
-  border-radius: 17px;
-  border-left: rgb(132, 38, 232) 2px solid;
+.secondContact {
+  list-style: none;
 }
 
-.telEmailHeader h2 {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  margin-bottom: 25px;
-}
-
-.telEmailItem {
-  display: flex;
-  justify-content: flex-start;
-  margin-bottom: 15px;
-}
-
-.telEmailItem p {
+.secondContactItem {
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 18px;
+  gap: 10px;
+  margin: 15px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 778px) {
+  .secondContact {
+    margin-bottom: 250px;
+  }
 }
