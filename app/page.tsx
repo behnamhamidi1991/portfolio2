@@ -1,11 +1,16 @@
-import Image from "next/image";
-
+"use client";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <main>
-      <div className="top-container">
+    <main className="app">
+      <motion.div
+        className="top-container"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300 text-xl tracking-widest font-semibold intro-text">
           I&apos;m Behnam Hamidi and I work as a{" "}
         </span>
@@ -15,11 +20,15 @@ export default function Home() {
         <h2>
           {" "}
           <span> What&apos;s up? </span> Here you can discover my creative ideas
-          ...{" "}
         </h2>
-      </div>
+      </motion.div>
 
-      <div className="top-btnContainer">
+      <motion.div
+        className="top-btnContainer"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <div className="btnContainer">
           <Link
             href="/about"
@@ -34,7 +43,7 @@ export default function Home() {
             Hire Me
           </Link>
         </div>
-      </div>
+      </motion.div>
     </main>
   );
 }

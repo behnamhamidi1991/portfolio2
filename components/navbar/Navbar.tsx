@@ -11,10 +11,10 @@ const Navbar = () => {
       <Link href="/" className={styles.navItem}>
         <BiSolidHomeAlt2 />
       </Link>
-      <Link href="/" className={styles.navItem}>
+      <Link href="/about" className={styles.navItem}>
         <BiSolidUser />
       </Link>
-      <Link href="/" className={styles.navItem}>
+      <Link href="/hireme" className={styles.navItem}>
         <BiLogoMicrosoft />
       </Link>
     </div>
