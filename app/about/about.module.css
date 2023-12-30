@@ -55,3 +55,23 @@
 .imgPic {
   border-radius: 8px;
 }
+
+@media screen and (max-width: 1074px) {
+  .imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+  }
+
+  .aboutContianer {
+    padding: 0 10%;
+  }
+
+  .skillItemsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+}
