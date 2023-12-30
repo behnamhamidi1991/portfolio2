@@ -130,12 +130,29 @@ body {
     font-size: 72px;
     font-weight: 500;
   }
+
+  .contactBtn {
+    right: 170px;
+    top: -90px;
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  .contactBtn {
+    right: 80px;
+    top: -90px;
+  }
 }
 
 @media screen and (max-width: 1054px) {
   .top-container h2 {
     font-size: 52px;
     font-weight: 500;
+  }
+
+  .contactBtn {
+    right: 50px;
+    top: -90px;
   }
 }
 
@@ -152,6 +169,19 @@ body {
 
   .top-container h1 {
     font-size: 38px;
+  }
+
+  .contactBtn {
+    right: 40px;
+    top: -140px;
+    width: 120px;
+  }
+
+  .contactText {
+    margin-top: -28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
   }
 }
 
