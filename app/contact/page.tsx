@@ -15,7 +15,11 @@ import {
 const Page = () => {
   return (
     <div className={styles.contactPageContainer}>
-      <motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <div className={styles.contactHeader}>
           <h1>Contact Me</h1>
           <p>Here&apos;s how you can find me</p>
@@ -56,7 +60,12 @@ const Page = () => {
           </a>
         </div>
       </motion.div>
-      <motion.div className={styles.telEmail}>
+      <motion.div
+        className={styles.telEmail}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+      >
         <div className={styles.telEmailHeader}>
           <h2>Contact Me Via Email and Phone Number</h2>
         </div>
