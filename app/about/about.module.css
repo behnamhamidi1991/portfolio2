@@ -17,6 +17,15 @@
   color: rgb(236, 236, 236);
 }
 
+.descriptionText {
+  margin: 25px 0;
+  padding: 16px 22px;
+  line-height: 1.8;
+  background-color: #131b2e;
+  border-radius: 10px;
+  border-left: rgb(161, 34, 235) solid 2px;
+}
+
 .imageContainer {
   display: flex;
   justify-content: center;
@@ -92,11 +101,11 @@
   line-height: 1.8;
   background-color: #131b2e;
   border-radius: 10px;
-  border-left: rgb(112, 33, 190) solid 2px;
+  border-left: rgb(255, 73, 73) solid 2px;
 }
 
 .box h3 {
-  color: rgb(165, 100, 255);
+  color: rgb(255, 255, 255);
 }
 
 .box1 {
@@ -105,11 +114,11 @@
   line-height: 1.8;
   background-color: #131b2e;
   border-radius: 10px;
-  border-left: rgb(105, 33, 205) solid 2px;
+  border-left: rgb(83, 211, 250) solid 2px;
 }
 
 .box1 h3 {
-  color: rgb(165, 100, 255);
+  color: rgb(255, 255, 255);
 }
 
 .box2 {
@@ -170,6 +179,22 @@
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
+  }
+}
+
+@media screen and (max-width: 944px) {
+  .skillsContainer {
+    padding: 0 10%;
+  }
+
+  .learnMore {
+    margin: 50px 0;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  .box p {
+    font-size: 14px;
   }
 }
 

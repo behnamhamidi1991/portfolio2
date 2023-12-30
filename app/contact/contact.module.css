@@ -80,3 +80,27 @@
     margin-bottom: 250px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .contactPageHeader h1 {
+    font-size: 50px;
+  }
+
+  .contactPageHeader p {
+    font-weight: 200;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contactPageHeader h1 {
+    font-size: 38px;
+  }
+
+  .contactPageHeader p {
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+}

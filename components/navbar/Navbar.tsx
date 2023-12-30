@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link href="/about" className={styles.navItem}>
         <BiSolidUser />
       </Link>
-      <Link href="/hireme" className={styles.navItem}>
+      <Link href="/projects" className={styles.navItem}>
         <BiLogoMicrosoft />
       </Link>
     </div>
