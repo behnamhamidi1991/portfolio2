@@ -29,25 +29,33 @@ const page = () => {
         </p>
         <div className={styles.imageContainer}>
           <Image
-            src="/profile.jpg"
-            height={300}
-            width={300}
+            src="/1.jpg"
+            height={200}
+            width={200}
             alt="profile"
             className={styles.img}
           />
 
           <Image
-            src="/profile2.jpg"
-            height={300}
-            width={300}
+            src="/2.jpg"
+            height={200}
+            width={200}
             alt="profile"
             className={styles.img}
           />
 
           <Image
-            src="/profile3.jpg"
-            height={300}
-            width={300}
+            src="/3.jpg"
+            height={200}
+            width={200}
+            alt="profile"
+            className={styles.img}
+          />
+
+          <Image
+            src="/4.jpg"
+            height={200}
+            width={200}
             alt="profile"
             className={styles.img}
           />
