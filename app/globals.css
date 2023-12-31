@@ -185,6 +185,12 @@ body {
   }
 }
 
+@media screen and (max-width: 630px) {
+  .contactBtn {
+    right: 37%;
+  }
+}
+
 @media screen and (max-width: 588px) {
   .top-container h2 {
     font-size: 28px;
