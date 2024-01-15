@@ -17,23 +17,31 @@ const Page = () => {
       >
         <div className={styles.header}>
           <h1>Projetcts</h1>
-          <p>Take a look at porjects I&apos;ve done ...</p>
+          <p>These are some sample projects I&apos;ve done</p>
         </div>
 
         <div className={styles.body}>
           {projects.map((project) => (
-            <Link
-              href={`/projects/${project.id}`}
-              key={project.id}
-              className={styles.items}
-            >
-              <Image
-                src={project.imgUrl}
-                alt={project.title}
-                width={700}
-                height={300}
-              />
-            </Link>
+            <div key={project.id} className={styles.items}>
+              <Link href={`/projects/${project.id}`}>
+                <Image
+                  src={project.imgUrl}
+                  width={600}
+                  height={400}
+                  alt={project.title}
+                />
+              </Link>
+              <div className={styles.projectContent}>
+                <h2>{project.title}</h2>
+                <p>{project.description}</p>
+                <Link
+                  href={`/projects/${project.id}`}
+                  className={styles.readBtn}
+                >
+                  Read More
+                </Link>
+              </div>
+            </div>
           ))}
         </div>
       </motion.div>
