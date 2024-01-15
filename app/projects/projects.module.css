@@ -30,6 +30,7 @@
 .items {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.965);
   background-color: #1a1e27;
+  padding: 15px 0;
 }
 
 .projectContent {
@@ -41,6 +42,22 @@
   font-size: 21px;
   font-weight: 700;
   color: rgb(233, 233, 233);
+}
+
+.projectContent p {
+  margin-bottom: 18px;
+  color: #c5ccdb;
+}
+
+.readBtn {
+  background-color: #111214;
+  padding: 12px 19px;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 986px) {
