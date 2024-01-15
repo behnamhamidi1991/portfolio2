@@ -67,4 +67,8 @@
   .navItem {
     font-size: 18px;
   }
+
+  .navTitle {
+    font-size: 7px;
+  }
 }
