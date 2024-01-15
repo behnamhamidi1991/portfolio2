@@ -48,6 +48,7 @@
 .projectContent p {
   margin-bottom: 18px;
   color: #c5ccdb;
+  font-size: 15px;
 }
 
 .readBtn {
@@ -64,5 +65,19 @@
 @media screen and (max-width: 986px) {
   .body {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .items {
+    padding: 5px 0;
+  }
+
+  .projectContent {
+    padding: 15px 22px;
+  }
+
+  .projectContent p {
+    font-size: 14px;
   }
 }
