@@ -22,15 +22,17 @@ const Page = () => {
 
         <div className={styles.body}>
           {projects.map((project) => (
-            <Link href="/" key={project.id} className={styles.items}>
+            <Link
+              href={`/projects/${project.id}`}
+              key={project.id}
+              className={styles.items}
+            >
               <Image
                 src={project.imgUrl}
                 alt={project.title}
                 width={700}
                 height={300}
               />
-              {/* <h2>{project.title}</h2>
-              <p>{project.description}</p> */}
             </Link>
           ))}
         </div>
