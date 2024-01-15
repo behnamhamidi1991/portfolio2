@@ -34,7 +34,7 @@ const page = () => {
             </a>
           </div>
           <div className={styles.socialItem}>
-            <a href="www.linkedin.com/in/behnamhamidi688" target="_blank">
+            <a href="https://linkedin.com/in/behnamhamidi688" target="_blank">
               <BiLogoLinkedin className={styles.icon} />
               linkedin
             </a>
