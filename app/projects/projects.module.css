@@ -4,11 +4,12 @@
 }
 
 .header {
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 .pageContainer h1 {
-  font-size: 72px;
+  font-size: 52px;
   margin: 15px 0;
   text-align: center;
 }
