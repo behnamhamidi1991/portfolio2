@@ -187,7 +187,7 @@ body {
 
 @media screen and (max-width: 630px) {
   .contactBtn {
-    right: 37%;
+    right: 41%;
   }
 }
 
@@ -209,6 +209,10 @@ body {
   .top-container .intro-text {
     font-size: 16px;
   }
+
+  .contactBtn {
+    right: 40%;
+  }
 }
 
 @media screen and (max-width: 462px) {
@@ -223,6 +227,23 @@ body {
 
   .top-container .intro-text {
     font-size: 14px;
+  }
+
+  .contactBtn {
+    right: 168px;
+  }
+
+  .contactText {
+    margin-top: -28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .contactBtn {
+    right: 36%;
   }
 }
 
@@ -239,5 +260,17 @@ body {
 
   .top-container .intro-text {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  .contactBtn {
+    right: 34%;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .contactBtn {
+    right: 32.5%;
   }
 }
