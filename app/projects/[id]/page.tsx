@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/app/data";
 
-const Project = ({ params: { id } }) => {
+const Project = ({ params: { id } }: any) => {
   const project = projects.find((project) => project.id === id);
   if (!project) {
     return <div> This page does not exist </div>;
