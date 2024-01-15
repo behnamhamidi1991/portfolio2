@@ -53,3 +53,13 @@
     font-size: 7px;
   }
 }
+
+@media screen and (max-width: 365px) {
+  .container {
+    gap: 37px;
+  }
+
+  .navItem {
+    font-size: 18px;
+  }
+}
