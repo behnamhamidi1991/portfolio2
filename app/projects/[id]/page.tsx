@@ -2,11 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/app/data";
 
-interface Props {
-  params: string;
-}
-
-const Project: React.FC<Props> = ({ params: { id } }) => {
+const Project = ({ params: { id } }) => {
   const project = projects.find((project) => project.id === id);
   if (!project) {
     return <div> This page does not exist </div>;
