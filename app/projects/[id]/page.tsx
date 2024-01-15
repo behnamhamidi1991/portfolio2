@@ -6,7 +6,7 @@ interface Props {
   params: string;
 }
 
-const Project: React.FC<Props> = ({ params: id }) => {
+const Project: React.FC<Props> = ({ params: { id } }) => {
   const project = projects.find((project) => project.id === id);
   if (!project) {
     return <div> This page does not exist </div>;
