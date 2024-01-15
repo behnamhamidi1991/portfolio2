@@ -29,6 +29,7 @@ const Page = () => {
                   width={600}
                   height={400}
                   alt={project.title}
+                  className={styles.projectImg}
                 />
               </Link>
               <div className={styles.projectContent}>

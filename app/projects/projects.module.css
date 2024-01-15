@@ -1,6 +1,6 @@
 .pageContainer {
   margin-top: 60px;
-  padding: 0 15%;
+  padding: 0 14%;
 }
 
 .header {
@@ -23,7 +23,7 @@
 
 .body {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
   padding-bottom: 200px;
 }
@@ -31,16 +31,16 @@
 .items {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.965);
   background-color: #1a1e27;
-  padding: 15px 0;
+  padding: 18px 0;
 }
 
 .projectContent {
-  padding: 15px 37px;
+  padding: 15px 20px;
   line-height: 1.8;
 }
 
 .projectContent h2 {
-  font-size: 21px;
+  font-size: 17px;
   font-weight: 700;
   color: rgb(233, 233, 233);
 }
@@ -62,19 +62,21 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 986px) {
+@media screen and (max-width: 1282px) {
+  .body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 818px) {
   .body {
     grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 484px) {
-  .items {
-    padding: 5px 0;
-  }
-
   .projectContent {
-    padding: 15px 22px;
+    padding: 15px;
   }
 
   .projectContent p {
