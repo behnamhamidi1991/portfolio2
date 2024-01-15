@@ -1,6 +1,6 @@
 .container {
   background-color: black;
-  height: 100px;
+  height: 80px;
   color: #fff;
   position: fixed;
   bottom: 0;
@@ -51,6 +51,10 @@
 
   .navTitle {
     font-size: 7px;
+  }
+
+  .container {
+    height: 75px;
   }
 }
 
