@@ -2,7 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { projects } from "@/app/data";
 
-export default function Project({ params: { id } }) {
+interface Props {
+  params: string;
+}
+
+export default function Project({ params: { id } }: string) {
   const project = projects.find((project) => project.id === id);
   if (!project) {
     return <div> This page does not exist </div>;
