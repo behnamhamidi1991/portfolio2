@@ -23,7 +23,7 @@ const singlePost = ({ params: { id } }: any) => {
             />
             <ul className={styles.hashtags}>
               {singlePost.hashtags.map((hashtag) => (
-                <li key={singlePost.id}>{hashtag}</li>
+                <li key={singlePost.id}># {hashtag}</li>
               ))}
             </ul>
           </div>
@@ -31,6 +31,10 @@ const singlePost = ({ params: { id } }: any) => {
           <h1 className={styles.title}>{singlePost.title}</h1>
         </div>
         <div className={styles.content}>{singlePost.content}</div>
+        <div className={styles.btnContainer}>
+          <button>Back To Homepage</button>
+          <button>Back To Blog</button>
+        </div>
       </div>
     </div>
   );
