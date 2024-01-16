@@ -14,7 +14,7 @@ const Navbar = () => {
         <BiSolidUser className={styles.icon} />
         <span className={styles.navTitle}>About</span>
       </Link>
-      <Link href="/about" className={styles.navItem}>
+      <Link href="/blog" className={styles.navItem}>
         <FaBlog className={styles.icon} />
         <span className={styles.navTitle}>Blog</span>
       </Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
         <BiLogoMicrosoft className={styles.icon} />
         <span className={styles.navTitle}>Projects</span>
       </Link>
-      <Link href="/projects" className={styles.navItem}>
+      <Link href="/contact" className={styles.navItem}>
         <IoLogoWhatsapp className={styles.icon} />
         <span className={styles.navTitle}>Contact</span>
       </Link>
