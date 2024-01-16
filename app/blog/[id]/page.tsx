@@ -1,15 +1,23 @@
 import React from "react";
-import { post } from "../../data";
+import { posts } from "../../data";
+import Image from "next/image";
 
 const singlePost = ({ params: { id } }: any) => {
-  const singlePost = post.find((item) => item.id === id);
+  const singlePost = posts.find((item) => item.id === id);
   if (!singlePost) {
     return <div> This page does not exist! </div>;
   }
 
   return (
     <div>
-      <div>{singlePost.imgUrl}</div>
+      <div>
+        <Image
+          src={singlePost.imgUrl}
+          width={400}
+          height={300}
+          alt="singlePost.title"
+        />
+      </div>
     </div>
   );
 };
