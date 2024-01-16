@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./blog.module.css";
 import { posts } from "../data";
+import singlePost from "./[id]/page";
 
 const Blog = () => {
   return (
