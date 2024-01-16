@@ -41,49 +41,91 @@ interface postItems {
   title: string;
   content: string;
   imgUrl: string;
+  hashtags: string[];
 }
 
 export const posts: postItems[] = [
   {
     id: "1",
-    title: "Travel Website",
+    title: "JavaScript Tricky Questions",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/js.jpg",
+    hashtags: [
+      "javascript",
+      "frontend",
+      "typescript",
+      "programming",
+      "web-development",
+      "web-design",
+    ],
   },
   {
     id: "2",
-    title: "Travel Website",
+    title: "MongoDB Superpowers",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/mongodb.jpg",
+    hashtags: [
+      "database",
+      "backend",
+      "mongodb",
+      "programming",
+      "web-development",
+      "web-design",
+    ],
   },
   {
     id: "3",
-    title: "Travel Website",
+    title: "PHP Most Popular Frameworks",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/php.jpg",
+    hashtags: [
+      "php",
+      "backend",
+      "object-oriented",
+      "programming",
+      "web-development",
+      "server",
+    ],
   },
   {
     id: "4",
-    title: "Travel Website",
+    title: "Python Crash Course",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/py.jpg",
+    hashtags: [
+      "python",
+      "backend",
+      "functional",
+      "programming",
+      "web-development",
+      "django",
+    ],
   },
   {
     id: "5",
-    title: "Travel Website",
+    title: "Wordpress New Version",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/wp.jpg",
+    hashtags: [
+      "wordpress",
+      "website",
+      "gadgets",
+      "wp-development",
+      "web-development",
+      "web-design",
+    ],
   },
   {
     id: "6",
-    title: "Travel Website",
+    title: "Begin With Node.js",
     content:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quibusdam officia natus eligendi in illum dicta unde inventore odit porro reprehenderit sapiente optio quam aliquid amet sit consectetur repellat modi perferendis mollitia est asperiores deleniti, magni veritatis? Quidem adipisci recusandae nesciunt cupiditate ex earum vitae minima aliquid dignissimos neque enim sunt, assumenda id repudiandae non iste sed magnam quod magni accusantium totam sequi autem placeat. Natus ad repudiandae amet ullam doloremque corporis aliquid ut, expedita voluptatibus magni labore at tempora.",
     imgUrl: "/blog/node.jpg",
+    hashtags: ["nodejs", "backend", "mern", "programming", "express", "server"],
   },
 ];
