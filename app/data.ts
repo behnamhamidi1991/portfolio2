@@ -3,36 +3,55 @@ interface ProjectItems {
   title: string;
   description: string;
   imgUrl: string;
+  demoLink: string;
+  codeLink: string;
 }
 
 export const projects: ProjectItems[] = [
   {
     id: "1",
-    title: "Travel Website",
+    title: "Coffee House",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos repellat distinctio eius reiciendis aliquid cumque temporibus magni.",
-    imgUrl: "/projects/travel.jpg",
+    imgUrl: "/projects/coffeehouse.png",
+    demoLink: "https://coffeehouse-three.vercel.app/",
+    codeLink: "https://github.com/behnamhamidi1991/coffeehouse",
   },
   {
     id: "2",
     title: "Course Selling React Project",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos repellat distinctio eius reiciendis aliquid cumque temporibus magni.",
-    imgUrl: "/projects/smarterdev.jpg",
+    imgUrl: "/projects/travel.png",
+    demoLink: "",
+    codeLink: "",
   },
   {
     id: "3",
-    title: "React TodoApp",
+    title: "Smarter Dev",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos repellat distinctio eius reiciendis aliquid cumque temporibus magni.",
-    imgUrl: "/projects/todo.jpg",
+    imgUrl: "/projects/smarterdev.png",
+    demoLink: "",
+    codeLink: "",
   },
   {
     id: "4",
-    title: "Portfolio with Next.js",
+    title: "Fitness App",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos repellat distinctio eius reiciendis aliquid cumque temporibus magni.",
-    imgUrl: "/projects/portfolio.jpg",
+    imgUrl: "/projects/fitness.png",
+    demoLink: "",
+    codeLink: "",
+  },
+  {
+    id: "5",
+    title: "Portfolio",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos repellat distinctio eius reiciendis aliquid cumque temporibus magni.",
+    imgUrl: "/projects/portfolio.png",
+    demoLink: "",
+    codeLink: "",
   },
 ];
 

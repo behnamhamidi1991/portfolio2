@@ -22,10 +22,15 @@ const Project = ({ params: { id } }: any) => {
           />
         </div>
         <div className={styles.btnContainer}>
-          <button className="bg-gradient-to-r from-purple-700 to-cyan-600">
+          <Link
+            href={project.demoLink}
+            className="bg-gradient-to-r from-purple-700 to-cyan-600 mx-2 py-3 px-4"
+          >
             Demo
-          </button>
-          <button className={styles.btnTwo}>Code</button>
+          </Link>
+          <Link href={project.codeLink} className={styles.btnTwo}>
+            Code
+          </Link>
         </div>
       </div>
 

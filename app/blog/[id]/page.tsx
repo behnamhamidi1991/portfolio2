@@ -2,6 +2,7 @@ import React from "react";
 import { posts } from "../../data";
 import Image from "next/image";
 import styles from "./single.module.css";
+import Link from "next/link";
 
 const singlePost = ({ params: { id } }: any) => {
   const singlePost = posts.find((item) => item.id === id);
@@ -32,8 +33,12 @@ const singlePost = ({ params: { id } }: any) => {
         </div>
         <div className={styles.content}>{singlePost.content}</div>
         <div className={styles.btnContainer}>
-          <button>Back To Homepage</button>
-          <button>Back To Blog</button>
+          <Link href="/" className={styles.buttomBtn1}>
+            Back To Homepage
+          </Link>
+          <Link href="/blog" className={styles.buttomBtn2}>
+            Back To Blog
+          </Link>
         </div>
       </div>
     </div>
