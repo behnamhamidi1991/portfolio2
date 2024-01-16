@@ -27,12 +27,12 @@
 .postText {
   font-size: 15px;
   line-height: 1.9;
+  margin-bottom: 10px;
 }
 
 .readBtn {
   background-color: #111214;
   padding: 12px 19px;
-  margin: 5px 0;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
