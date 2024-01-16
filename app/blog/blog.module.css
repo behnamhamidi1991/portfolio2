@@ -4,14 +4,28 @@
   margin-bottom: 200px;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.header h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
 .postBox {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px, auto));
-  grid-gap: 18px;
+  grid-gap: 22px;
 }
 
 .post {
   background-color: rgb(31, 27, 48);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .postContent {

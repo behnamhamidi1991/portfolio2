@@ -9,8 +9,7 @@ const Blog = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
-        <h1>BLOG</h1>
-        <p>This is the blog page</p>
+        <h1>blog</h1>
       </div>
 
       <div className={styles.postBox}>
