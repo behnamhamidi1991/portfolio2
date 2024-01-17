@@ -18,7 +18,13 @@ const Blog = () => {
           <div key={post.id} className={styles.postContainer}>
             <div className={styles.post}>
               <div className={styles.postImg}>
-                <Image src={post.imgUrl} width={500} height={350} alt="" />
+                <Image
+                  src={post.imgUrl}
+                  width={500}
+                  height={350}
+                  alt={post.title}
+                  className={styles.img}
+                />
               </div>
 
               <div className={styles.postContent}>

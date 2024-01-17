@@ -53,3 +53,33 @@
   border-radius: 3px;
   cursor: pointer;
 }
+
+.img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1679px) {
+  .postHeader {
+    font-size: 18px;
+  }
+
+  .postText {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .postBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 22px;
+  }
+}
+
+@media screen and (max-width: 683px) {
+  .postBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 22px;
+  }
+}
