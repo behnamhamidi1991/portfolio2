@@ -1,5 +1,5 @@
 .container {
-  padding: 0 10%;
+  padding: 0 20%;
   margin-top: 100px;
   margin-bottom: 200px;
 }
@@ -70,7 +70,6 @@
 
 .btnContainer {
   display: flex;
-  flex-direction: column;
   gap: 10px;
   padding: 15px 0;
   width: fit-content;
@@ -78,10 +77,14 @@
 
 .btnContainer .buttomBtn1 {
   background-color: #0f0f11;
-  padding: 10px 15px;
+  padding: 16px 15px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
 }
 
 .btnContainer .buttomBtn2 {
@@ -90,4 +93,8 @@
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: auto;
 }

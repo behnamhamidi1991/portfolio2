@@ -3,6 +3,8 @@ import { posts } from "../../data";
 import Image from "next/image";
 import styles from "./single.module.css";
 import Link from "next/link";
+import { BiSolidHomeAlt2 } from "react-icons/bi";
+import { FaBlog } from "react-icons/fa";
 
 const singlePost = ({ params: { id } }: any) => {
   const singlePost = posts.find((item) => item.id === id);
@@ -34,9 +36,10 @@ const singlePost = ({ params: { id } }: any) => {
         <div className={styles.content}>{singlePost.content}</div>
         <div className={styles.btnContainer}>
           <Link href="/" className={styles.buttomBtn1}>
-            Back To Homepage
+            <BiSolidHomeAlt2 /> Back To Homepage
           </Link>
           <Link href="/blog" className={styles.buttomBtn2}>
+            <FaBlog />
             Back To Blog
           </Link>
         </div>

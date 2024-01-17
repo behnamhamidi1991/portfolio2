@@ -23,7 +23,9 @@ const Blog = () => {
 
               <div className={styles.postContent}>
                 <h2 className={styles.postHeader}>{post.title}</h2>
-                <p className={styles.postText}>{post.content}</p>
+                <p className={styles.postText}>
+                  {post.content.substring(0, 270)} ...
+                </p>
                 <Link href={`/blog/${post.id}`} className={styles.readBtn}>
                   Read More
                 </Link>
